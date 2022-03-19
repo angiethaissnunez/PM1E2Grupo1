@@ -7,7 +7,6 @@
     android:background="#8872A7D1"
     tools:context=".ActivityListadoR">
 
-
     <Button
         android:id="@+id/btnEliminar"
         android:layout_width="230dp"
