@@ -36,7 +36,7 @@ public class MyAdapter extends RecyclerView.Adapter<MyAdapter.MyViewHolder> {
         holder.tvNombre.setText(user.getNombre());
         holder.tvTelefono.setText(user.getTelefono());
         holder.tvLatitud2.setText(user.getLatitud());
-        holder.tvLongitud2.setText(user.getLogintud());
+        holder.tvLongitud2.setText(user.getLongitud());
     }
 
     @Override

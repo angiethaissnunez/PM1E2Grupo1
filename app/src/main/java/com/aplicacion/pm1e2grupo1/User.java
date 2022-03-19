@@ -2,7 +2,7 @@ package com.aplicacion.pm1e2grupo1;
 
 public class User {
 
-    String nombre, telefono, latitud, logintud;
+    String nombre, telefono, latitud, longitud;
 
     public String getNombre() {
         return nombre;
@@ -16,7 +16,7 @@ public class User {
         return latitud;
     }
 
-    public String getLogintud() {
-        return logintud;
+    public String getLongitud() {
+        return longitud;
     }
 }
