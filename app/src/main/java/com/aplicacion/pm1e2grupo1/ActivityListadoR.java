@@ -5,6 +5,8 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
+import android.app.AlertDialog;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -31,6 +33,9 @@ public class ActivityListadoR extends AppCompatActivity {
     DatabaseReference database;
     MyAdapter myAdapter;
     ArrayList<User> list;
+
+    Contacto contactoSeleccionado;
+    AlertDialog.Builder mBuilderSelector;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -72,4 +77,9 @@ public class ActivityListadoR extends AppCompatActivity {
             }
         });
     }
+
+
+
+
+
 }
