@@ -1,7 +1,7 @@
 package com.aplicacion.pm1e2grupo1;
 
-import androidx.appcompat.app.AppCompatActivity;
 
+import androidx.appcompat.app.AppCompatActivity;
 import android.os.Bundle;
 
 public class ActivityEdicion extends AppCompatActivity {
